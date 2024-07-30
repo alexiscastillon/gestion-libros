@@ -1,0 +1,27 @@
+# API de Gestión de Libros y Autores
+
+## Descripción
+
+Esta es una API para gestionar libros y autores, implementada utilizando Node.js y PostgreSQL con Prisma como ORM. La API permite realizar operaciones CRUD (Crear, Leer, , Eliminar) en los recursos de usuarios, libros, autores y reseñas.
+
+## Estructura del Proyecto
+
+- **src**: Contiene el código fuente de la API.
+  - **controllers**: Implementa la lógica para manejar las solicitudes.
+  - **middlewares**: Contiene middleware para la validación y autenticación.
+  - **models**: Define los modelos de datos usando Prisma.
+  - **routes**: Configura las rutas de la API.
+  - **services**: Implementa la lógica de negocio.
+- **prisma**: Contiene los archivos de configuración de Prisma.
+- **tests**: Contiene pruebas unitarias y de integración para la API.
+- **.env**: Archivo de configuración de variables de entorno.
+- **README.md**: Este archivo.
+
+## Endpoints
+
+- **POST /usuarios**: Crear un nuevo usuario.
+- **GET /usuarios**: Obtener todos los usuarios.
+- **DELETE /usuarios/{id}**: Eliminar un usuario.
+- **POST /libros**: Crear un nuevo libro.
+- **GET /libros**: Obtener todos los libros.
+- **DELETE /libros/{id}**: Eliminar un libro.
